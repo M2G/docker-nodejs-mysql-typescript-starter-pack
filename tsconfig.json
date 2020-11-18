@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "noImplicitReturns": false,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "outDir": "./build",
+    "lib": ["es5", "es6", "es7", "es2017", "es2020"],
+    "rootDirs": ["src", "stories"],
+    "baseUrl": "./src",
+    "paths": {
+      "@src": ["src"]
+    }
+  },
+  "include": [
+    "./src",
+    "./stories"
+  ],
+  "exclude": [
+    "**/__tests__/*",
+    "node_modules",
+    "dist",
+    "build",
+    "node_modules",
+    "config",
+    "webpack",
+    "jest"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
