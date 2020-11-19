@@ -14,7 +14,8 @@
   "keywords": [
     "docker",
     "nodejs",
-    "typescript"
+    "typescript",
+    "mysql"
   ],
   "author": "M2G",
   "type": "module",
