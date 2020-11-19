@@ -1,7 +1,7 @@
 {
-  "name": "docker-nodejs-typescript",
+  "name": "docker-nodejs-mysql-typescript-starter-pack",
   "version": "0.0.1",
-  "description": "Docker, NodeJS and Typescript",
+  "description": "Docker, NodeJS, MySQL and Typescript",
   "license": "MIT",
   "repository": {
     "type": "git",
