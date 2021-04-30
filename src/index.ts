@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import mysql from 'mysql';
 
 console.log('ok');
@@ -10,13 +11,13 @@ const connection = mysql.createConnection({
   port: 3306,
 });
 
-connection.connect(function (err) {
+connection.connect((err: any) => {
   if (err) {
-    console.error('error connecting: ' + err.stack);
+    console.error(`error connecting: ${err.stack}`);
     return;
   }
 
   console.log('connection', connection);
 
-  console.log('connected as id ' + connection.threadId);
+  console.log(`connected as id ${connection.threadId}`);
 });
