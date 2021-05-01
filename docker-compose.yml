@@ -36,3 +36,4 @@ services:
       - 3307:3306
     volumes:
       - ./test.sql:/docker-entrypoint-initdb.d/test.sql
+      - ./fix-mysql8-auth.sql:/docker-entrypoint-initdb.d/fix-mysql8-auth.sql

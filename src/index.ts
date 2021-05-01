@@ -1,10 +1,10 @@
 /*eslint-disable*/
-import mysql from 'mysql';
+const mysql = require('mysql2');
 
-console.log('ok');
+console.log('okok');
 
 const connection = mysql.createConnection({
-  host: 'db',
+  host: 'mysql',
   user: 'docker',
   password: 'docker',
   database: 'test_db',
@@ -16,7 +16,6 @@ connection.connect((err: any) => {
     console.error(`error connecting: ${err.stack}`);
     return;
   }
-
   console.log('connection', connection);
 
   console.log(`connected as id ${connection.threadId}`);
