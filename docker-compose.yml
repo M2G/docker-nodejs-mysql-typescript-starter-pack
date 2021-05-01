@@ -37,3 +37,5 @@ services:
     volumes:
       - ./test.sql:/docker-entrypoint-initdb.d/test.sql
       - ./fix-mysql8-auth.sql:/docker-entrypoint-initdb.d/fix-mysql8-auth.sql
+    cap_add:
+      - SYS_NICE
