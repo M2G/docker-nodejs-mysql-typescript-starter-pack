@@ -2,7 +2,7 @@
 # Docker NodeJS Typescript Starter
 # Example Dockerfile
 #
-FROM node:14.11-alpine AS build
+FROM node:15.14.0-alpine AS build
 
 ## Install build toolchain, install node deps and compile native add-ons
 RUN apk add --no-cache \
