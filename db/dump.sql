@@ -1,6 +1,6 @@
 -- Dumping database structure for test_table
-CREATE DATABASE IF NOT EXISTS `test_table`;
-USE `test_table`;
+CREATE DATABASE IF NOT EXISTS `test_db`;
+USE `test_db`;
 
 -- MySQL dump 10.13  Distrib 5.7.21, for Linux (x86_64)
 --

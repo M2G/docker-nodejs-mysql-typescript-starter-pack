@@ -36,8 +36,8 @@ services:
       - 3307:3306
     volumes:
       - dbdata:/var/lib/mysql
-      - ./test.sql:/docker-entrypoint-initdb.d/test.sql
-      - ./fix-mysql8-auth.sql:/docker-entrypoint-initdb.d/fix-mysql8-auth.sql
+      - ./db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./db/fix-mysql8-auth.sql:/docker-entrypoint-initdb.d/fix-mysql8-auth.sql
     cap_add:
       - SYS_NICE
 volumes:

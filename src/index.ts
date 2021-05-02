@@ -1,13 +1,13 @@
 /*eslint-disable*/
-const mysql = require('mysql2');
+import { createConnection } from 'mysql2';
 
 console.log('okok');
 
-const connection = mysql.createConnection({
-  host: 'mysql',
-  user: 'docker',
-  password: 'docker',
-  database: 'test_db',
+const connection = createConnection({
+  host: process.env.MYSQL_HOST,
+  user: process.env.MYSQL_USER,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
   port: 3306,
 });
 
