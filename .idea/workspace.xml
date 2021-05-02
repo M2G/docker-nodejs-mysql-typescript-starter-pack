@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d4b788-a7c6-48bd-9d0e-4d81b87b0b52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/fix-mysql8-auth.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/fix-mysql8-auth.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -70,7 +72,8 @@
       <workItem from="1618163930353" duration="224000" />
       <workItem from="1618164202186" duration="378000" />
       <workItem from="1619010193467" duration="9558000" />
-      <workItem from="1619819305836" duration="19234000" />
+      <workItem from="1619819305836" duration="21270000" />
+      <workItem from="1619923067256" duration="19000" />
     </task>
     <servers />
   </component>
